@@ -1,0 +1,182 @@
+body {
+  margin: 0;
+  background-color: #d6d1d1;
+  font-family: 'Ysabeau Office', sans-serif;
+}
+
+/* nav bar */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  background-color: #ffffff;
+  color: #2e41cc;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  flex-wrap: wrap;
+}
+/* creates the underline for the navbar options */
+nav a {
+  color: 2e41;
+  text-decoration: underline;
+}
+/* the hover color for the navbar */
+nav a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+li {
+  font-size: 20px;
+  padding: 15px;
+}
+
+h1 {
+  margin: 20px;
+  color: 2e41cc;
+}
+
+img {
+  margin-left: 40px;
+  margin-top: 25px;
+  overflow: clip;
+  width: 500px;
+}
+
+.circle-image {
+  border-radius: 50%;
+  border-style: circle;
+  border-color: 2e41cc;
+}
+
+p {
+  text-align: left;
+  font-size: 18px;
+  line-height: 1.5;
+  color: black;
+  width: 90%;
+}
+
+h2 {
+  color: #2e41cc;
+  text-align: center;
+  font-size: 35px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  max-width: 85%;
+  margin: 0 auto;
+  padding: 30px;
+  flex-wrap: wrap;
+}
+
+.child-container {
+  flex: 1;
+}
+
+.child-container p {
+  text-align: center;
+}
+
+
+.child-container-two {
+  flex: 4;
+  border-left: 3px solid #000000;
+}
+
+#app-photo {
+  border: 5px solid #020202;
+  display: flex;
+  justify-content: center;
+}
+
+#app-photo:hover {
+  background-color: #000000;
+  opacity: 0.5;
+}
+
+.app-photo {
+  display: flex;
+  justify-content: center;
+}
+
+.abstract-image {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#abstract-image {
+  border: 5px solid #a9a9a9;
+  margin: 5px;
+}
+
+#abstract-image:hover {
+  background-color: #c7c6c6;
+  opacity: 0.5;
+}
+
+.contact-me ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.contact-me ul li a{
+  text-decoration: underline;
+  color: #000000;
+}
+
+.contact-me ul li a:hover {
+  color: rgb(255, 255, 255);
+}
+
+.resume {
+  display: flex;
+  justify-content: center;
+}
+
+h3 {
+  color: #ffffff;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  #app-photo {
+    width: 500px;
+  }
+  
+  p {
+    font-size: 22px;
+  }
+
+  #abstract-image {
+    width: 150px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  #app-photo {
+    width: 250px;
+  }
+
+  .portfolio-img {
+    width: 180px;
+    padding: 0;
+  }
+
+  footer {
+    font-size: 50px;
+  }
+
+  #abstract-image {
+    width: 150px;
+  }
+}

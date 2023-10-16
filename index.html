@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css"  rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" type="text/css" href="./assets/style/style.css">
+  <title>My Portfolio</title>
+</head>
+<title>Ty Starks</title>
+</head>
+<header>
+  <h1>Tyson Starks</h1>
+  <nav>
+    <ul>
+      <left></left><li><a href="#about-me">About Me</a></li>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#contact-me">Contact Me</a></li>
+    </ul>
+  </nav>
+</header>
+<main>
+  <!-- Personal info -->
+  <img src="./assets/images/me.jpeg" class="circle-image">
+  <body>
+  <class="lesson">
+      <div class= "child-container"><h2>About Me</h2>
+      </div>
+      <br>
+      <p>Hello! My name is Tyson Starks. I became interested in computers at a young age but as i got older i began to wonder how they worked and to utilize websites, games and databases from a business standpoint.
+        Before learning to predominately code ive done other creative hobbies that include outdoor activities such as taking my camera out for shoots of portrait and landscape photography or indoor writing and reading to feed my creative urge. Before i joined the fullstack-stack bootcamp with the University of Texas at Austin, i was a mortarmen in the marine corps for 3 years which allowed to me be able to work anywhere on the go and stay focused until any job i started was complete. 
+      </p>
+
+      <!-- /* added an image*/ -->
+      <div class= "child-container"><h2>My Previous Projects</h2>
+      </div>
+      <br>
+      <!-- CAROUSEL IMAGE FOR PREVIOUS WORKS -->
+      <div id="default-carousel" class="relative w-full" data-carousel="slide">
+        
+        <!-- Carousel wrapper -->
+        <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+          
+          <!-- PROJECT 1 -->
+          <div class="hidden duration-2000 ease-in-out" data-carousel-item>
+            <img src="./assets/images/horiseon.png" class="absolute block w-3/4 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" 
+            <a href="https://starkoiii.github.io/horiseon-refactor/"></a>
+          </div>
+          <!-- PROJECT 2 -->
+          <div class="hidden duration-2000 ease-in-out" data-carousel-item>
+            <img src="./assets/images/pawfect.png" class="absolute block w-3/5 -translate-x-1/2 -translate-y-1/2 top-1 left-1/2" alt="...">
+          </div>
+          <!-- PROJECT 3 -->
+          <div class="hidden duration-2000 ease-in-out" data-carousel-item>
+            <img src="./assets/images/what2eat.png" class="absolute block w-3/4 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+          </div>
+          <!-- PROJECT 4 -->
+          <!-- <div class="hidden duration-2000 ease-in-out" data-carousel-item>
+            <img src="/docs/images/carousel/carousel-4.svg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+          </div> -->
+        </div>
+        <!-- Slider indicators -->
+        <div class="absolute z-30 flex space-x-3 -translate-x-1/2 bottom-5 left-1/2">
+          <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
+          <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
+          <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
+          <!-- <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4" data-carousel-slide-to="3"></button> -->
+        </div>
+        <!-- Slider controls -->
+        <button type="button" class="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+          <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+            <svg class="w-4 h-4 text-white dark:text-gray-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+            </svg>
+            <span class="sr-only">Previous</span>
+          </span>
+        </button>
+        <button type="button" class="absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+          <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+            <svg class="w-4 h-4 text-white dark:text-gray-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+            </svg>
+            <span class="sr-only">Next</span>
+          </span>
+        </button>
+      </div>
+      <br>
+      <br>
+    </div>
+  </div>
+  <div class="container" id="work">
+    <div class="child-container"><h2> 1st Project </h2></div>
+    <div class="child-container-two">
+        <div><a href="https://starkoiii.github.io/horiseon-refactor/"><img src="assets/images/horiseon.png" alt="screenshot of my first website" width="400px" id="abstract-image"></a></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container" id="work">
+    <div class="child-container"><h2> 2nd Project </h2></div>
+    <div class="child-container-two">
+        <div><a href="https://mayphamx.github.io/bingbong-project1"><img src="./assets/images/pawfect.png" alt="screenshot of my second site" width="400px" id="abstract-image"></a></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container" id="work">
+    <div class="child-container"><h2> 3rd Project </h2></div>
+    <div class="child-container-two">
+        <div><a href="https://github.com/mayphamx/PawfectMatch"><img src="./assets/images/what2eat.png" alt="screenshot of my second site" width="400px" id="abstract-image"></a></div>
+      </div>
+    </div>
+  </div>
+  <!-- Contact me -->
+  <div class="container" id="contact-me">
+    <div class="child-container"><h2>Contact Me</h2></div>
+    <div class="child-container-two">
+      <div class="contact-me">
+        <ul >
+          <li><a href="#">573-825-8137</a></li>
+          <li><a href="mailto:ta.starks3@gmail.com">Email</a></li>
+          <li><a href="https://github.com/Starkoiii?tab=repositories">GitHub</a></li>
+        </ul>
+      
+</main>
+<footer><h2></h2>
+  <footer><h3>I claim this page as Copyright© 2023</h3>
+  </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
+</body>
+</html>
+</body>
+</html>
