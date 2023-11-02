@@ -1,19 +1,18 @@
-body {
-  margin: 0;
-  background-color: #d6d1d1;
-  font-family: 'Ysabeau Office', sans-serif;
-}
-
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
 /* nav bar */
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   text-align: center;
-  background-color: #ffffff;
-  color: #2e41cc;
+  background-color: #910640;
+  color: #ffffff;
 }
 
+.content-container {
+  text-align: center;
+  padding: 50px;
+}
 nav ul {
   display: flex;
   list-style-type: none;
@@ -21,7 +20,7 @@ nav ul {
 }
 /* creates the underline for the navbar options */
 nav a {
-  color: 2e41;
+  color: white;
   text-decoration: underline;
 }
 /* the hover color for the navbar */
@@ -46,25 +45,27 @@ img {
   overflow: clip;
   width: 500px;
 }
-
+/* styling for my profile image */
 .circle-image {
   border-radius: 50%;
   border-style: circle;
   border-color: 2e41cc;
 }
-
-p {
+/* first paragraph */
+center {
   text-align: left;
   font-size: 18px;
   line-height: 1.5;
-  color: black;
+  color: rgb(255, 255, 255);
   width: 90%;
 }
-
+/* about me */
 h2 {
-  color: #2e41cc;
+  color: #ffffff;
   text-align: center;
-  font-size: 35px;
+  font-size: 30px;
+  text-decoration: underline;
+  margin-left: 30%;
 }
 
 .container {
@@ -77,7 +78,8 @@ h2 {
 }
 
 .child-container {
-  flex: 1;
+  flex: 0;
+  margin-left: 0%;
 }
 
 .child-container p {
@@ -87,7 +89,7 @@ h2 {
 
 .child-container-two {
   flex: 4;
-  border-left: 3px solid #000000;
+  border-left: 4px solid #000000;
 }
 
 #app-photo {
@@ -113,12 +115,13 @@ h2 {
 }
 
 #abstract-image {
-  border: 5px solid #a9a9a9;
   margin: 5px;
+  max-height: 200px;
+  max-width: 200px;
 }
 
 #abstract-image:hover {
-  background-color: #c7c6c6;
+  background-color: #970000;
   opacity: 0.5;
 }
 
@@ -131,7 +134,7 @@ h2 {
 
 .contact-me ul li a{
   text-decoration: underline;
-  color: #000000;
+  color: #ffffff;
 }
 
 .contact-me ul li a:hover {
@@ -148,9 +151,9 @@ h3 {
   text-align: center;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 250px) {
   #app-photo {
-    width: 500px;
+    width: 250px;
   }
   
   p {
@@ -180,3 +183,4 @@ h3 {
     width: 150px;
   }
 }
+

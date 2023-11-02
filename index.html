@@ -3,9 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css"  rel="stylesheet" />
-  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
   <link rel="stylesheet" type="text/css" href="./assets/style/style.css">
+  <style>
+    /* adds background image  */
+    body{
+      background-image: url(assets/images/triangle-pattern-generator.jpg);
+      background-size: cover;
+      background-position: center;
+    }
+  </style>
   <title>My Portfolio</title>
 </head>
 <title>Ty Starks</title>
@@ -14,6 +21,8 @@
   <h1>Tyson Starks</h1>
   <nav>
     <ul>
+      <!-- navbar -->
+      
       <left></left><li><a href="#about-me">About Me</a></li>
       <li><a href="#work">Work</a></li>
       <li><a href="#contact-me">Contact Me</a></li>
@@ -21,62 +30,59 @@
   </nav>
 </header>
 <main>
-  <!-- Personal info -->
-  <img src="./assets/images/me.jpeg" class="circle-image">
-  <body>
-  <class="lesson">
-      <div class= "child-container"><h2>About Me</h2>
+    <!-- Personal info -->
+    <img src="./assets/images/me.jpeg" class="circle-image">
+    <body>
+        <div class= "child-container"><h2>About Me</h2>
+        </div>
+        <p><center>Hello! My name is Tyson Starks. I became interested in computers at a young age but as i got older i began to wonder how they worked and to utilize websites, games and databases from a business standpoint.
+        Before learning to predominately code ive done other creative hobbies that include outdoor activities such as taking my camera out for shoots of portrait and landscape photography or indoor writing and reading to feed my creative urge. Before i joined the fullstack-stack bootcamp with the University of Texas at Austin, i was a mortarmen in the marine corps for 3 years which allowed to me be able to work anywhere on the go and stay focused until any job i started was complete.</center> 
+        </p>
+        
+        <!-- /* added an image*/ -->
+        <div class= "child-container"><h2>My Previous Projects</h2>
+        </div>
+        <br>
+        <!-- horiseon project -->
+        <div class="container" id="work">
+          <div class="child-container"><h2> 1st Project </h2></div>
+            <div><a href="https://starkoiii.github.io/horiseon-refactor/"><img src="assets/images/saturn.jpg" alt="screenshot of my first website" width="200px" id="abstract-image"></a></div>
+          </div>
+        </div>
       </div>
-      <br>
-      <p>Hello! My name is Tyson Starks. I became interested in computers at a young age but as i got older i began to wonder how they worked and to utilize websites, games and databases from a business standpoint.
-        Before learning to predominately code ive done other creative hobbies that include outdoor activities such as taking my camera out for shoots of portrait and landscape photography or indoor writing and reading to feed my creative urge. Before i joined the fullstack-stack bootcamp with the University of Texas at Austin, i was a mortarmen in the marine corps for 3 years which allowed to me be able to work anywhere on the go and stay focused until any job i started was complete. 
-      </p>
-
-      <!-- /* added an image*/ -->
-      <div class= "child-container"><h2>My Previous Projects</h2>
-      </div>
-      <br>
-      <!-- horiseon project -->
-  <div class="container" id="work">
-    <div class="child-container"><h2> 1st Project </h2></div>
-    <div class="child-container-two">
-        <div><a href="https://starkoiii.github.io/horiseon-refactor/"><img src="assets/images/horiseon.png" alt="screenshot of my first website" width="400px" id="abstract-image"></a></div>
-      </div>
-    </div>
-  </div>
-<!-- Pawfect match -->
-  <div class="container" id="work">
-    <div class="child-container"><h2> 2nd Project </h2></div>
-    <div class="child-container-two">
-        <div><a href="https://desolate-journey-58009-31421c44a662.herokuapp.com"><img src="./assets/images/pawfect.png" alt="screenshot of my second site" width="400px" id="abstract-image"></a></div>
+      <!-- Pawfect match -->
+      <div class="container" id="work">
+        <div class="child-container"><h2> 2nd Project </h2></div>
+          <div><a href="https://desolate-journey-58009-31421c44a662.herokuapp.com"><img src="./assets/images/mars.png" alt="screenshot of my second site" width="200px" id="abstract-image"></a></div>
+        </div>
       </div>
     </div>
-  </div>
-<!-- what2eat -->
-  <div class="container" id="work">
-    <div class="child-container"><h2> 3rd Project </h2></div>
-    <div class="child-container-two">
-        <div><a href="https://mayphamx.github.io/bingbong-project1/"><img src="./assets/images/what2eat.png" alt="screenshot of my second site" width="400px" id="abstract-image"></a></div>
+    <!-- what2eat -->
+    <div class="container" id="work">
+      <div class="child-container"><h2> 3rd Project </h2></div>
+        <div><a href="https://mayphamx.github.io/bingbong-project1/"><img src="./assets/images/jupiter.png" alt="screenshot of my second site" width="150px" id="abstract-image"></a></div>
       </div>
     </div>
   </div>
   <!-- Contact me -->
-  <div class="container" id="contact-me">
-    <div class="child-container"><h2>Contact Me</h2></div>
+  <footer
+  <div class="container" id="contact-me"></div>
+  <div class="child-container"><h2>Contact Me</h2></div>
     <div class="child-container-two">
       <div class="contact-me">
         <ul >
           <li><a href="#">573-825-8137</a></li>
           <li><a href="mailto:ta.starks3@gmail.com">Email</a></li>
           <li><a href="https://github.com/Starkoiii?tab=repositories">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/tastarks/">LinkedIn</a></li>
+          <li><a href="resume.pdf" download>Download Resume</li>
         </ul>
-      
-</main>
-<footer><h2></h2>
-  <footer><h3>I claim this page as Copyright© 2023</h3>
-  </footer>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
-</body>
-</html>
-</body>
-</html>
+        </div>
+        </div>
+    </div>
+      </main>
+      </body>
+      </html>
+    </body>
+    </html>
+  </section>  
