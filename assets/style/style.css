@@ -1,99 +1,172 @@
 @import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
-/* nav bar */
+/* body background(s) */
+body {
+  background-color: antiquewhite;
+}
+html{
+  background-color: antiquewhite;
+}
+/* height: 425px; */
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   text-align: center;
-  background-color: #910640;
-  color: #ffffff;
+  background-color: #000000;
+  font-size: large;
+  border-radius: 60px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
 }
-
+/* Profile image */
+img {
+  margin-left: 100px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  overflow: clip;
+  width: 315px;
+}
+main{
+  background-color: antiquewhite;
+}
 .content-container {
   text-align: center;
   padding: 50px;
 }
 nav ul {
   display: flex;
-  list-style-type: none;
+  flex-direction: column;
   flex-wrap: wrap;
+  margin-right: 50px;
+  max-width: 20%;
 }
-/* creates the underline for the navbar options */
+/* text-decoration: underline; */
 nav a {
-  color: white;
-  text-decoration: underline;
+  color: rgb(6, 0, 0);
 }
+
 /* the hover color for the navbar */
 nav a:hover {
-  color: #ffffff;
+  color: #020000;
   text-decoration: underline;
 }
 
 li {
   font-size: 20px;
   padding: 15px;
+  background-color: antiquewhite;
+  border-radius: 90%;
+  font-weight: 900;
 }
 
+/* nav bar/ My first name */
 h1 {
-  margin: 20px;
-  color: 2e41cc;
-}
-
-img {
-  margin-left: 40px;
-  margin-top: 25px;
-  overflow: clip;
-  width: 500px;
+  color: rgb(0, 0, 0);
+  font-size: 40px;
+  margin-left: -50%;
+  background-color: antiquewhite;
+  width: 350px;
+  max-height: 350px;
+  border-radius: 60px;
+  padding-block: 20px;
+  font-weight: 900;
 }
 /* styling for my profile image */
 .circle-image {
   border-radius: 50%;
-  border-style: circle;
-  border-color: 2e41cc;
+  border-style: solid;
+  border-color: black;
 }
-/* first paragraph */
-center {
-  text-align: left;
-  font-size: 18px;
-  line-height: 1.5;
-  color: rgb(255, 255, 255);
-  width: 90%;
-}
-/* about me */
+
+
+/* ABOUT ME TITLE styling */
 h2 {
-  color: #ffffff;
-  text-align: center;
+  color:rgb(0, 0, 0);
   font-size: 30px;
-  text-decoration: underline;
-  margin-left: 30%;
+  background-color: antiquewhite;
+  border-color: #000000;
+  border-style: solid;
+  border-radius: 90%;
+  width: 350px;
+  max-height: 350px;
+  border-radius: 120px;
+  padding-block: 20px;
+  margin-left: 80%;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  font-weight: 800;
+  border-width: 5px;
+}
+
+/* first paragraph */
+p1 {
+  display: flex;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 30px;
+  text-align: center;
+  line-height: 2.5;
+  border-radius: 60px;
+  border-style: solid;
+  padding-left: 50px;
+  padding-block: 25px;
+  padding-right: 50px;
+  border-width: 5px;
+}
+
+/* PREVIOUS PROJECTS styling */
+h4 {
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  background-color: antiquewhite;
+  border-color: #000000;
+  border-style: solid;
+  width: 350px;
+  max-height: 350px;
+  border-radius: 120px;
+  padding-block: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  font-weight: 800;
+  margin-left: 4%;
+  border-width: 5px;
+}
+
+/* PREVIOUS PROJECTS box */
+div#work.container {
+  display: flex;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 40px;
+  height: 430px;
+  background-color: #000000;
+  border-radius: 60px;
+  max-width: 2800px;
 }
 
 .container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   max-width: 85%;
   margin: 0 auto;
   padding: 30px;
-  flex-wrap: wrap;
 }
 
 .child-container {
-  flex: 0;
   margin-left: 0%;
-}
-
-.child-container p {
   text-align: center;
-}
-
-
-.child-container-two {
-  flex: 4;
-  border-left: 4px solid #000000;
+  flex: 6;
+  display: flex;
+  font-size: 40px;
+  color: antiquewhite;
 }
 
 #app-photo {
-  border: 5px solid #020202;
+  border: 5px solid #000000;
   display: flex;
   justify-content: center;
 }
@@ -110,18 +183,12 @@ h2 {
 
 .abstract-image {
   display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+  flex-wrap: 0px;
 }
 
-#abstract-image {
-  margin: 5px;
-  max-height: 200px;
-  max-width: 200px;
-}
-
+/* image hover */
 #abstract-image:hover {
-  background-color: #970000;
+  background-color: #ffffff;
   opacity: 0.5;
 }
 
@@ -134,7 +201,7 @@ h2 {
 
 .contact-me ul li a{
   text-decoration: underline;
-  color: #ffffff;
+  color: #000000;
 }
 
 .contact-me ul li a:hover {
@@ -159,7 +226,7 @@ h3 {
   p {
     font-size: 22px;
   }
-
+  
   #abstract-image {
     width: 150px;
   }

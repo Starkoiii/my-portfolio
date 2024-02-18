@@ -28,4 +28,4 @@ A page that allows for potential employers to view my work and learn a little so
 N/A
 
 ## How to Contribute
-Willing to accept any constructive criticism to improve my future projects or current projects improvements in functionality or style!
+Willing to accept any constructive criticism to improve my future projects or current projects improvements in functionality or style! Please contact me through my contact information displayed on my portfolio web page.
