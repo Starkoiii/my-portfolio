@@ -4,7 +4,7 @@ The motivation behind this project was to display my skills as a junior web deve
 Installation:
 Created by me through VS Code
 ## Link to my site:
-https://starkoiii.github.io/portfolio3/
+https://starkoiii.github.io/my-portfolio/
 ## Link to previous work:
 https://starkoiii.github.io/horiseon-refactor/
 
