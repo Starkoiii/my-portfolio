@@ -1,35 +1,53 @@
 <!DOCTYPE html>
 <lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
-  <link rel="stylesheet" type="text/css" href="./assets/style/style.css">
-  <title>My Portfolio</title>
-</head>
-<title>Ty Starks</title>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"> -->
+    <link rel="stylesheet" type="text/css" href="./assets/style/style.css">
+    <title>My Portfolio</title>
+  </head>
+  <title>Ty Starks</title>
 </head>
 <header>
-  <img src="./assets/images/me 2.jpg" class="circle-image">
-  <h1>Tyson Starks</h1>
-  <!-- navbar selections -->
-  <nav>
-    <ul>
-      <left></left><li><a href="#about-me">About Me</a></li>
-      <li><a href="#work">Previous Work</a></li>
-      <li><a href="#contact-me">Contact Me</a></li>
-      <li><a href="#download-resume">My Resume</a></li>
-    </ul>
-  </nav>
+  <!-- navbar list button styling -->
+  <div class="container" id="nav-buttons"></div>
+  <ul>
+    
+    <a href="#p1">
+      <button>About Me</button>
+    </a>
+    
+    <a href="#contact-me" >
+      <button>Contact Links</button>
+    </a>
+
+    <a href="#work">
+      <button>Previous Works</button>
+    </a>
+
+    <a href="#p1">
+      <button>View My Resume</button>
+    </a>
+  </ul>
+  <!-- new profile image -->
+  <div class="box">
+    <div class="content">
+      <img src= "assets/images/img.jpg">
+      <h9> Tyson Starks<br><span>Fullstack Web Developer</span></h9>
+      <br>
+      <a href="#"> View My Resume! </a>
+    </div>
 </header>
 <main>
     <!-- Personal info -->
     <body>
-        <div class= "child-container"><h2>About Me</h2>
+        <div class= "child-container" id="p1">
+          <h2>About Me</h2>
         </div>
-        <p1>Hello! My name is Tyson Starks. I became interested in computers at a young age but as I got older I began to wonder how they worked and the in's and out's of websites, games and databases from a business standpoint. Before learning to code, I've done other creative hobbies that include indoor &outdoor activities such as photography or writing and reading to feed my creative urge. Before i joined the fullstack-stack boot camp program with the University of Texas at Austin. In my previous profession I was a mortarman in the United States Marine Corps for 3 years which allowed to me be able to work anywhere on the go and to stay focused until any job I started was complete.
+        <p1>My name is Tyson Starks. I became interested in computers at a young age but as I got older I began to wonder how they worked and the in's and out's of websites, games and databases from a business standpoint. Before learning to code, I've done other creative hobbies that include indoor &outdoor activities such as photography or writing and reading to feed my creative urge. Before i joined the fullstack-stack boot camp program with the University of Texas at Austin. In my previous profession I was a mortarman in the United States Marine Corps for 3 years which allowed to me be able to work anywhere on the go and to stay focused until any job I started was complete.
       </p1> 
-        </p>
+      </p>
         <br>
         <!-- /* added images*/ -->
         <div class= "child-container"><h4>My Previous Projects</h4>
@@ -38,14 +56,14 @@
         <br>
         <!-- horiseon project -->
         <div class="container" id="work">
-          <div class="child-container"><h7> 1st Project </h7></div>
-          <div><a href="https://starkoiii.github.io/horiseon-refactor/"><img src="assets/images/saturn.jpg" alt="screenshot of my first website" width="200px" id="abstract-image1"></a></div>
+          <div class="child-container"><h7> Horiseon Refactor Project </h7></div>
+          <div><a href="https://starkoiii.github.io/horiseon-refactor/"><img src="assets/images/saturn.jpg" alt="screenshot of my first website" id="image1"></a></div>
           <!-- Pawfect match -->
-          <div class="child-container"><h7> 2nd Project </h7></div>
-          <div><a href="https://desolate-journey-58009-31421c44a662.herokuapp.com"><img src="./assets/images/mars.png" alt="screenshot of my second site" width="50px" id="abstract-image2"></a></div>
+          <div class="child-container"><h7> Group Project I</h7></div>
+          <div><a href="https://desolate-journey-58009-31421c44a662.herokuapp.com"><img src="./assets/images/mars.png" alt="screenshot of my second site" width="50px" id="image2"></a></div>
               <!-- what2eat -->
-                <div class="child-container"><h7> 3rd Project </h7></div>
-                  <div><a href="https://mayphamx.github.io/bingbong-project1/"><img src="./assets/images/jupiter.png" alt="screenshot of my second site" width="150px" id="abstract-image3"></a></div>
+                <div class="child-container"><h7> Group Project II </h7></div>
+                  <div><a href="https://mayphamx.github.io/bingbong-project1/"><img src="./assets/images/blue.png" alt="screenshot of my second site" width="150px" id="image3"></a></div>
                 </div>
               </div>
           </div>
@@ -59,13 +77,17 @@
   <footer
   <div class="container" id="contact-me"></div>
       <div class="contact-me">
-        <ul >
-          <li><a href="#">573-825-8137</a></li>
-          <li><a href="mailto:ta.starks3@gmail.com">Email</a></li>
-          <li><a href="https://github.com/Starkoiii?tab=repositories">GitHub</a></li>
-          <li><a href="https://www.linkedin.com/in/tastarks/">LinkedIn</a></li>
-          <li><a href="resume.pdf" download>Download Resume</li>
-        </ul>
+        <ul2>
+        <a href="https://github.com/Starkoiii?tab=repositories">
+      <button>Github Repositories</button>
+    </a>
+    <button><a href="mailto:ta.starks3@gmail.com">Email Me</a></button>
+    <a href="https://www.linkedin.com/in/tastarks/">
+      <button>LinkedIn Profile</button>
+    </a>
+    <a href="#p1">
+      <button>View My Resume</button>
+    </a>
         </div>
         </div>
     </div>
