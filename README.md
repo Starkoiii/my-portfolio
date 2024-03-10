@@ -1,4 +1,4 @@
-## my-portfolio
+## My Portfolio
 Check it out!!
 #
 The motivation behind this project was to display my skills as a junior web developer by displaying my previous projects and creating the website myself. Furthermore it was also an opportunity to tell a bit about my personal life and what has led me to the position i am in today which is currently a graduate in the UT Fullstack web development program.
