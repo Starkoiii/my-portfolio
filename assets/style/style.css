@@ -1,3 +1,5 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+
 html{
   background-color: white;
 }
@@ -7,7 +9,7 @@ header {
   border-radius: 60px;
   margin-left: 10px;
   margin-right: 10px;
-  height: 450px;
+  height: 340px;
   margin-top: 10px;
 }
 
@@ -21,16 +23,16 @@ ul {
 }
 /* button styling */
 button {
-  height: 90px;
+  height: 40px;
   margin-top: 20px;
-  width: 350px;
+  width: 215px;
   text-align: center;
   border-radius: 90px;
   transition-duration: 0.4s;
-  font-size: 20px;
+  font-size: 15px;
 }
 button:hover {
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   color: red;
   border-color: rgb(255, 0, 0);
   border-width: 10px;
@@ -52,7 +54,7 @@ button:active {
 li {
   font-size: 25px;
   padding: 25px;
-  background-color: antiquewhite;
+  background-color: rgb(255, 255, 255);
   border-radius: 90%;
   font-weight: 900;
 }
@@ -68,8 +70,8 @@ body {
 .box
 {
   position: relative;
-  width: 435px;
-  height: 435px;
+  width: 335px;
+  height: 335px;
   background: rgb(0, 0, 0);
   border-radius: 50%;
   overflow: hidden;
@@ -167,7 +169,7 @@ body {
   color: rgb(255, 255, 255);
   border-radius: 25px;
   font-weight: 500;
-  font-size: 1.25em;
+  font-size: 1em;
   text-transform: uppercase;
   letter-spacing: 0.05em;
   text-decoration: none;
@@ -183,20 +185,20 @@ body {
 /* ABOUT ME TITLE styling */
 h2 {
   color:rgb(0, 0, 0);
-  font-size: 30px;
+  font-size: 20px;
   background-color: rgb(255, 255, 255);
-  border-color: #000000;
+  border-color: #ff0000;
   border-style: solid;
   border-radius: 90%;
   width: 350px;
   max-height: 350px;
   border-radius: 120px;
-  padding-block: 20px;
-  margin-left: 80%;
+  padding-block: 10px;
+  margin-left: 65%;
   margin-top: 80px;
   margin-bottom: 80px;
   font-weight: 800;
-  border-width: 5px;
+  border-width: 8px;
 }
 
 /* first paragraph styling*/
@@ -204,35 +206,36 @@ p1 {
   display: flex;
   margin-left: 10px;
   margin-right: 10px;
-  font-size: 30px;
+  font-size: 20px;
   text-align: center;
-  line-height: 2.5;
+  line-height: 2;
   border-radius: 60px;
   border-style: solid;
   padding-left: 50px;
-  padding-block: 25px;
   padding-right: 50px;
-  border-width: 5px;
+  border-width: 8px;
+  padding: 25px;
+  border-color: black;
+
 }
 
 /* MY PREVIOUS PROJECTS styling */
 h4 {
   color: rgb(0, 0, 0);
-  font-size: 30px;
+  font-size: 20px;
   background-color: rgb(255, 255, 255);
-  border-color: #000000;
+  border-color: #001eff;
   border-style: solid;
   width: 350px;
-  max-height: 350px;
   border-radius: 120px;
-  padding-block: 30px;
-  padding-left: 15px;
+  padding-block: 15px;
   padding-right: 15px;
   margin-top: 60px;
   margin-bottom: 20px;
   font-weight: 800;
   margin-left: 4%;
-  border-width: 5px;
+  border-width: 8px;
+  text-align: center;
 }
 
 /* PREVIOUS PROJECTS box */
@@ -278,34 +281,49 @@ div#work.container {
 }
 
 /* image hover */
-#image1:hover {
-  background-color: #ffffff;
-  opacity: 0.5;
+img:hover {
+  background-color: #000000;
+  opacity: 70%;
+  border-radius: 50%;
 }
-#image2:hover {
-  background-color: #ffffff;
-  opacity: 0.5;
-}
-#image3:hover {
-  background-color: #ffffff;
-  opacity: 0.5;
+#description1:hover {
+  background-color: rgb(0, 0, 0);
+  opacity: 70%;
+  border-radius: 50%;
 }
   ul2 {
     display: flex;
     justify-content: space-around;
+    margin-bottom: 15px;
   }
-  /* Saturn */
-  img#image1 {
-    height: 250px;
+  /* Add some basic styling for better presentation */
+  .card {
+    border: 20px solid #0a0707;
+    padding: 20px;
+    text-align: center;
     width: 250px;
+    border-color: rgb(95, 95, 95);
+    border-width: 1px;
   }
-  /* Venus */
-  img#image2 {
-    height: 220px;
-    width: 220px;
+
+  img {
+    display: flex;
+    flex: space-between;
+    flex-direction: row;
+    max-width: 100%;
+    height: auto;
+    cursor: pointer;
   }
-  /* Neptune */
-  img#image3 {
-    height: 250px;
-    width: 250px;
+  div.card {
+    background-color: #000000;
+    text-align: center;
+    font-size: 20px;
+    color: #fdfdfd;
+    border-radius: 15%;
+  }
+  .card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 112%;
   }
